@@ -1,0 +1,93 @@
+* {
+  background-color: rgb(255, 131, 131);
+}
+
+body {
+  background-color: bisque;
+}
+
+h1 {
+  background-color: rgb(21, 21, 221);
+}
+
+/* will get this color */
+h1 {
+  background-color: rgb(48, 167, 74);
+}
+
+p:first-child {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 18px;
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+}
+
+div p :first-child {
+  text-decoration: underline;
+  color: brown;
+}
+
+h2 {
+  border: 1px solid grey;
+  text-align: center;
+  letter-spacing: 15px;
+  font-family: sans-serif;
+}
+
+#lastParagraph {
+  color: deeppink;
+}
+
+.paragraph {
+  font-style: italic;
+}
+
+button:hover {
+  background-color: #61dafb;
+}
+
+/*box model examples below!*/
+
+div p {
+  padding-left: 30px;
+  /* show them what will happen if you add padding-bottom here, you need to be careful where to add each style. In this case, the style would work better on the img itself*/
+}
+
+img {
+  border-radius: 25px;
+  border: 1px dotted blue;
+  padding: 20px;
+}
+
+a {
+  border: 2px solid brown;
+  margin: 30px;
+}
+
+/* class */
+.left_kitty {
+  width: 200px;
+}
+
+/* id */
+#right_kitty {
+  width: 100px;
+}
+
+div > span {
+  color: red;
+}
+
+div > p {
+  color: rgb(85, 0, 255);
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: rgb(48, 167, 74);
+  font-weight: 800;
+}
